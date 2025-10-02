@@ -3,7 +3,7 @@ from ics import Calendar, Event
 from datetime import datetime
 from pytz import timezone
 
-def create_ics_from_json(input_filename="sched_2024_2025.json", output_filename="toronto_maple_leafs_2024_2025.ics"):
+def create_ics_from_json(input_filename="sched_2025_2026.json", output_filename="toronto_maple_leafs_2025_2026.ics"):
   # Load JSON data from the file
   with open(input_filename, "r") as file:
     data = json.load(file)
